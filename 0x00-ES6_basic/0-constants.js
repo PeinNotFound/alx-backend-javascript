@@ -1,16 +1,13 @@
-//function taskFirst to instantiate variables using const
-function taskFirst() {
+export function taskFirst() {
   var task = 'I prefer const when I can.';
   return task;
 }
 
-//function getLast to combine functions
-function getLast() {
+export function getLast() {
   return ' is okay';
 }
 
-//function taskNext to instantiate variables using let
-function taskNext() {
+export function taskNext() {
   var combination = 'But sometimes let';
   combination += getLast();
 
